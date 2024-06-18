@@ -1,10 +1,9 @@
-var name1 = prompt("string typedagi malumot kiriting")
-var bir = prompt("number typedagi malumot kiriting")
-var ikki = prompt("boolean typedagi malumot kiriting")
-
-alert(`Siz kiritgan ${name1} sozi string typega tegishli
-Siz kiritgan ${bir} soni numberga typega tegishli
-Siz kiritgan ${name1} sozi boolean typega tegishli`)
-
-var userResponse = confirm
-
+var random = Math.round(Math.random()*100)
+var kopaytirish = random *2
+var bolish = random /2
+alert("sizda hozir random sonlar chiqishni boshlid")
+alert(`Random orqali chiqqan son:${random}`)
+alert("biz random sonni 2 ga ko`paytirdik va bo`ldik")
+alert(`random orqali chiqan son ${random} 
+       biz uni 2 ga kopaytirganimizda ${ kopaytirish}
+       biz uni 2 bolganimizda ${bolish}`)
